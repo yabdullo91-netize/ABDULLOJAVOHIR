@@ -215,6 +215,12 @@
   .mb-3\.5 {
     margin-bottom: calc(var(--spacing) * 3.5);
   }
+  .mb-\[10px\] {
+    margin-bottom: 10px;
+  }
+  .mb-\[30px\] {
+    margin-bottom: 30px;
+  }
   .ml-40 {
     margin-left: calc(var(--spacing) * 40);
   }
@@ -275,6 +281,9 @@
   .h-\[350vh\] {
     height: 350vh;
   }
+  .h-\[1000px\] {
+    height: 1000px;
+  }
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
@@ -285,6 +294,9 @@
     width: 50%;
   }
   .w-\[100\%\] {
+    width: 100%;
+  }
+  .w-full {
     width: 100%;
   }
   .border-collapse {
@@ -352,6 +364,9 @@
   }
   .gap-12 {
     gap: calc(var(--spacing) * 12);
+  }
+  .gap-\[50px\] {
+    gap: 50px;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
@@ -463,6 +478,9 @@
   .p-32 {
     padding: calc(var(--spacing) * 32);
   }
+  .p-\[50px\] {
+    padding: 50px;
+  }
   .py-\[300px\] {
     padding-block: 300px;
   }
@@ -529,6 +547,16 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .sm\:flex {
+    @media (width >= 40rem) {
+      display: flex;
+    }
+  }
+  .sm\:h-\[300px\] {
+    @media (width >= 40rem) {
+      height: 300px;
+    }
   }
   .md\:block {
     @media (width >= 48rem) {
